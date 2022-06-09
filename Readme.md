@@ -33,5 +33,10 @@ $ ./run-cassandra-cluster.sh
 $ ./cassandra-app.sh
 $ python3 read-from-stream-write-to-cassandra.py
 ````
+````
+$ ./shutdown-app.sh
+$ ./shutdown-cassandra-cluster.sh
+````
+Use given client or any other way to send GET requests to localhost:8080.
 ### Results
 todo write
