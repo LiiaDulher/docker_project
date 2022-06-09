@@ -4,7 +4,7 @@ USE wikipedia_dulher;
 
 CREATE TABLE page_creation (uid UUID, time_created timestamp, domain text, user_id text, user_name text, is_bot boolean, page_title text, PRIMARY KEY (time_created, domain, uid));
 
-CREATE TABLE domain_statistics (uid UUID, time_start timestamp, domain text, all_pages int, created_by_bot int, PRIMARY KEY (time_start, uid));
+CREATE TABLE domain_statistics (uid UUID, time_start timestamp, domain text, all_pages int, PRIMARY KEY (time_start, uid));
 
 CREATE TABLE bots_statistics (uid UUID, time_start timestamp, domain text, created_by_bot int, PRIMARY KEY (time_start, uid));
 
