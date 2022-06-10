@@ -1,0 +1,10 @@
+Type: B
+Query number: 3
+
+{'params': {'domain_name': 'en.wikipedia.org'},
+ 'query_number': 3,
+ 'query_type': 'B'}
+ 
+Response:
+
+{'number_of_pages': 2183}

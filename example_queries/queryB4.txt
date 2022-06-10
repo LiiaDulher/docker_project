@@ -1,0 +1,7 @@
+Type: B
+Query number: 4
+
+{'params': {'page_id': '119129907'}, 'query_number': 4, 'query_type': 'B'}
+Response:
+
+{'url': 'https://commons.wikimedia.org/wiki/File:The_World_Affairs_Council_presents_the_2013_Atlas_Award_A_Tribute_to_America%27s_First_Responders_(10487521295).jpg'}
