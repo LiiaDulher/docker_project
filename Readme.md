@@ -19,7 +19,7 @@ $ pip install requests
 ````
 
 ### Important
-It takes about 65 seconds for Cassandra node to start, so <i>run-cassandra.sh</i> will start node about <b>1 minute</b>.
+It takes about 65 seconds for Cassandra node to start, so <i>run-cassandra-cluster.sh</i> will start node about <b>1 minute</b>.
 
 ### Usage
 ````
