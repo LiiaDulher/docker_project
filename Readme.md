@@ -3,8 +3,8 @@ Wikipedia project
 
 ## Team: [Liia_Dulher](https://github.com/LiiaDulher)
 
-### API 
-todo write
+### Documentation 
+All coresponding documentation: design, API, db diagrams are in <b>documents</b> folder.
 
 ### Prerequiments
 ````
