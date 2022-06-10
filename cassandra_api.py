@@ -185,7 +185,7 @@ class CassandraAPI:
                         cur_statistics["statistics"].append({str(row.domain): int(row.all_pages)})
                     result_json["hours"].append(cur_statistics)
             elif query_number == 2:
-                end_time = start_time + datetime.timedelta(hours=1)
+                end_time = start_time + datetime.timedelta(hours=6)
                 rows = self.client.query2(start_time.strftime("%Y-%m-%d %H:%M:%S+0000"))
                 result_json = {"time_start": start_time.strftime("%H:%M"),
                                "time_end": end_time.strftime("%H:%M"),
@@ -194,7 +194,7 @@ class CassandraAPI:
                     result_json["statistics"].append({"domain": str(row.domain),
                                                       "created_by_bots": int(row.created_by_bot)})
             else:
-                end_time = start_time + datetime.timedelta(hours=1)
+                end_time = start_time + datetime.timedelta(hours=6)
                 rows = self.client.query3(start_time.strftime("%Y-%m-%d %H:%M:%S+0000"))
                 result_json = {"time_start": start_time.strftime("%H:%M"),
                                "time_end": end_time.strftime("%H:%M"),
