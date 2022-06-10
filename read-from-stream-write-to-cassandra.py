@@ -95,6 +95,7 @@ class CassandraClient:
                 }
             page_title = str(row.page_title)
             users[str(row.user_id)]["pages_list"].append(page_title)
+        users = {k: v for k, v in sorted(users.items(), key=lambda item: len(item[1]["pages_list"]), reverse=True)[:20]}
         for user in users:
             titles = users[user]["pages_list"]
             pages_list = "["
