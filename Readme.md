@@ -39,7 +39,7 @@ $ ./shutdown-cassandra-cluster.sh
 ````
 Use given client or any other way to send GET requests to localhost:8080.
 ````
-python3 client.py
+$ python3 client.py
 ````
 
 ### Results
