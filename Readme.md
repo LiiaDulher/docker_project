@@ -39,4 +39,4 @@ $ ./shutdown-cassandra-cluster.sh
 ````
 Use given client or any other way to send GET requests to localhost:8080.
 ### Results
-todo write
+Directory example_queries contains queries and responses for them. It was created at 2022-06-10 15:58:36.263250+00:00.  
