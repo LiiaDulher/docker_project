@@ -1,3 +1,6 @@
+import datetime
+
+import pytz
 import requests
 import pprint
 
@@ -97,6 +100,7 @@ def main():
     port = 8080
     url = host + ":" + str(port)
     client = Client(url)
+    print("Current time in UTC:", datetime.datetime.now(pytz.utc))
     while True:
         try:
             query_body = client.get_request()
